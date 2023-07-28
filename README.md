@@ -11,7 +11,7 @@ We exported these DataFrames as "[category.csv](https://github.com/aliciahlavac/
 
 Next, we created the "campaign" DataFrame from the same "[crowdfunding.xlsx](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)" data. The "campaign" DataFrame included various columns such as "cf_id," "contact_id," "company_name," "description," "goal," "pledged," "outcome," "backers_count," "country," "currency," "launch_date," "end_date," "category_id," and "subcategory_id." We converted the "goal" and "pledged" columns to the float data type and the "launch_date" and "end_date" columns to the date format. The "campaign" DataFrame was exported as "[campaign.csv](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/campaign.csv)".
 
-![category final](https://github.com/aliciahlavac/Crowdfunding_ETL/assets/127240852/95816588-3e37-4962-911c-3168c242d94d)
+![campaign final](https://github.com/aliciahlavac/Crowdfunding_ETL/assets/127240852/8a70071a-52a5-49d8-9a28-3200165ba329)
 
 Additionally, we created the "contacts" DataFrame, based on the "[contacts.xlsx](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/contacts.xlsx)" Excel data. The "contacts" DataFrame contained columns for "contact_id," "first_name," "last_name," and "email."We iterated through the DataFrame and converted each row to a dictionary, then split the "name" column into "first_name" and "last_name." The cleaned "contacts" DataFrame was exported as "[contacts.csv](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/contacts.csv)" and saved to the GitHub repository.
 
