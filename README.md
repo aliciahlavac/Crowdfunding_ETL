@@ -1,7 +1,7 @@
 # Crowdfunding_ETL
 Project 2
 
-This mini project involved several tasks to create a crowdfunding database. Firstly, in the "[ETL_Mini_Project_JPealy_AHlavac.ipynb](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/ETL_Mini_Project_JPealy_AHlavac.ipynb)" file, we created two DataFrames: "category" and "subcategory." These DataFrames were extracted from the Excel data named "[crowdfunding.xlsx](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)" and contained information about unique categories and subcategories, respectively. 
+This mini project involved several tasks to create a crowdfunding database. Firstly, in the "[ETL_Mini_Project_JPealy_AHlavac.ipynb](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/ETL_Mini_Project_JPealy_AHlavac.ipynb)" file, we created two DataFrames: "category" and "subcategory." These DataFrames were extracted from the Excel data named "[crowdfunding.xlsx](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)" and contained information about unique categories and subcategories. 
 
 ![category final](https://github.com/aliciahlavac/Crowdfunding_ETL/assets/127240852/9f4682f6-fd49-46cb-9f25-edfad4f043cd)
 
