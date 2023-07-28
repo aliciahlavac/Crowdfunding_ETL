@@ -6,6 +6,7 @@ This mini project involved several tasks to create a crowdfunding database. Firs
 ![category](https://github.com/aliciahlavac/Crowdfunding_ETL/assets/127240852/4719da6f-556e-4a41-be47-82fdb526c203)
 
 
+
 ![subcategory](https://github.com/aliciahlavac/Crowdfunding_ETL/assets/127240852/597268d5-da83-4f57-ac95-588cc40fb388)
 
 We exported these DataFrames as "[category.csv](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/category.csv)" and "[subcategory.csv](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/subcategory.csv)".
