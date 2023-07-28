@@ -1,7 +1,13 @@
 # Crowdfunding_ETL
 Project 2
 
-This mini project involved several tasks to create a crowdfunding database. Firstly, in the "[ETL_Mini_Project_JPealy_AHlavac.ipynb]()" file, we created two DataFrames: "category" and "subcategory." These DataFrames were extracted from the "[crowdfunding.xlsx](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)" Excel data and contained information about unique categories and subcategories, respectively. We exported these DataFrames as "[category.csv](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/category.csv)" and "[subcategory.csv](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/subcategory.csv)".
+This mini project involved several tasks to create a crowdfunding database. Firstly, in the "[ETL_Mini_Project_JPealy_AHlavac.ipynb](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/ETL_Mini_Project_JPealy_AHlavac.ipynb)" file, we created two DataFrames: "category" and "subcategory." These DataFrames were extracted from the Excel data named "[crowdfunding.xlsx](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)" and contained information about unique categories and subcategories, respectively. 
+
+![category](https://github.com/aliciahlavac/Crowdfunding_ETL/assets/127240852/4719da6f-556e-4a41-be47-82fdb526c203)
+
+![subcategory](https://github.com/aliciahlavac/Crowdfunding_ETL/assets/127240852/597268d5-da83-4f57-ac95-588cc40fb388)
+
+We exported these DataFrames as "[category.csv](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/category.csv)" and "[subcategory.csv](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/subcategory.csv)".
 
 Next, we created the "campaign" DataFrame from the same "[crowdfunding.xlsx](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)" data. The "campaign" DataFrame included various columns such as "cf_id," "contact_id," "company_name," "description," "goal," "pledged," "outcome," "backers_count," "country," "currency," "launch_date," "end_date," "category_id," and "subcategory_id." We converted the "goal" and "pledged" columns to the float data type and the "launch_date" and "end_date" columns to the date format. The "campaign" DataFrame was exported as "[campaign.csv](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/campaign.csv)".
 
