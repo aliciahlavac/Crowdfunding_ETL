@@ -23,6 +23,8 @@ Next, we created a new Postgres database named "crowdfunding_db." Following the 
 
 In conclusion, the mini project covered data extraction and transformation from Excel files, creating DataFrames, exporting them as CSV, designing a database schema based on an ERD, creating a Postgres database, creating and verifying tables, and importing data into the tables to build the crowdfunding database.
 
+The two contributers on this project were Jason Pealy and Alicia Hlavac.
+
 Links used for reference when writing code:
 
 https://stackoverflow.com/questions/44327999/how-to-merge-multiple-dataframes
