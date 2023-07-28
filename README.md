@@ -1,7 +1,7 @@
 # Crowdfunding_ETL
 Project 2
 
-This mini project involved several tasks to create a crowdfunding database. Firstly, we created two DataFrames: "category" and "subcategory." These DataFrames were extracted from the "crowdfunding.xlsx" Excel data and contained information about unique categories and subcategories, respectively. We exported these DataFrames as "category.csv" and "subcategory.csv" and saved them to the GitHub repository.
+This mini project involved several tasks to create a crowdfunding database. Firstly, we created two DataFrames: "category" and "subcategory." These DataFrames were extracted from the "[crowdfunding.xlsx](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/crowdfunding.xlsx)" Excel data and contained information about unique categories and subcategories, respectively. We exported these DataFrames as "category.csv" and "subcategory.csv" and saved them to the GitHub repository.
 
 Next, we created the "campaign" DataFrame from the same "crowdfunding.xlsx" data. The "campaign" DataFrame included various columns such as "cf_id," "contact_id," "company_name," "description," "goal," "pledged," "outcome," "backers_count," "country," "currency," "launch_date," "end_date," "category_id," and "subcategory_id." We converted the "goal" and "pledged" columns to the float data type and the "launch_date" and "end_date" columns to the datetime format. The "campaign" DataFrame was exported as "campaign.csv" and saved to the GitHub repository.
 
