@@ -15,6 +15,8 @@ Next, we created the "campaign" DataFrame from the same "[crowdfunding.xlsx](htt
 
 Additionally, we created the "contacts" DataFrame, based on the "[contacts.xlsx](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/contacts.xlsx)" Excel data. The "contacts" DataFrame contained columns for "contact_id," "first_name," "last_name," and "email."We iterated through the DataFrame and converted each row to a dictionary, then split the "name" column into "first_name" and "last_name." The cleaned "contacts" DataFrame was exported as "[contacts.csv](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Resources/contacts.csv)" and saved to the GitHub repository.
 
+![contacts](https://github.com/aliciahlavac/Crowdfunding_ETL/assets/127240852/d3635721-b6a4-4321-adf6-32beee8c04c1)
+
 In the next phase, we designed the database schema using an ERD, which included tables for "category," "subcategory," "campaign," and "contacts." The schema defined data types, primary keys, foreign keys, and other constraints. We saved this schema as "[crowdfunding_db_schema.sql](https://github.com/aliciahlavac/Crowdfunding_ETL/blob/main/Crowdfunding_DB_Schema.sql)" in the GitHub repository.
 
 ![ERD](https://github.com/aliciahlavac/Crowdfunding_ETL/assets/127240852/248ea845-c224-4b69-a9e2-75c080d51fe7)
